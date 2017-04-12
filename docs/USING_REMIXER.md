@@ -80,7 +80,7 @@ For example:
 ```java
 @RangeVariableMethod(minValue = 15, maxValue = 70, initialValue = 20)
 public void setFontSize(Float fontSize) {
-  titleText.setTextSize(TypedValue.COMPLEX_UNIT_SP, size);
+  titleText.setTextSize(TypedValue.COMPLEX_UNIT_SP, fontSize);
 }
 ```
 
